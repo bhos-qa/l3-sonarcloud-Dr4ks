@@ -13,12 +13,4 @@ public class PermissionManager {
         this.mCurrentLevel=mCurrentLevel;
     }
 
-    public String getPermissionLevelName(PermissionLevel permissionLevel){
-        return switch (permissionLevel) {
-            case ADMIN -> "Admin";
-            case DEVELOPER -> "Developer";
-            case USER -> "User";
-            default -> throw new IllegalArgumentException("Invalid permission level");
-        };
-    }
 }
