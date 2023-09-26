@@ -36,4 +36,4 @@ jobs:
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}
           restore-keys: ${{ runner.os }}-gradle
       - name: Build and analyze
-        run: chmod +x gradlew && ./gradlew build sonar --info -D sonar.quality gate.wait=true
+        run: chmod +x gradlew && ./gradlew build sonar --info -D sonar.quality-gate.wait=true
