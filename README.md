@@ -142,3 +142,4 @@ jobs:
       - name: Build and analyze
         run: ./gradlew build sonar --info -Dsonar.qualitygate.wait=true
 ```
+
