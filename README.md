@@ -1,5 +1,8 @@
 Hello, now I will do task 3.
 
+SonarCloud's Badge=>
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=bhos-qa_l3-sonarcloud-Dr4ks&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=bhos-qa_l3-sonarcloud-Dr4ks)
+
 First requirement to create branches.
 ```ecma script level 4
 PS C:\Users\SahibHumbatzada\Desktop\Coding\QA_BHOS\lab3> git branch -a
@@ -138,4 +141,4 @@ jobs:
 
 Here's what, you can also see SonarCloud analysis from [here](https://sonarcloud.io/summary/overall?id=bhos-qa_l3-sonarcloud-Dr4ks)
 I also provide you with a screenshot of SonarCloud analysis.
-![img.png](image/img4.png)
+![image](image/img4.png)
