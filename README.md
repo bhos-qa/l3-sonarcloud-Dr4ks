@@ -136,3 +136,6 @@ jobs:
         run: chmod +x gradlew && ./gradlew build sonar --info -D sonar.quality-gate.wait=true
 ```
 
+Here's what, you can also see SonarCloud analysis from [here](https://sonarcloud.io/summary/overall?id=bhos-qa_l3-sonarcloud-Dr4ks)
+I also provide you with a screenshot of SonarCloud analysis.
+![img.png](image/img4.png)
