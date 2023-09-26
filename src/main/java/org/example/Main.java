@@ -6,7 +6,6 @@ public class Main {
 
         PermissionLevel currentLevel=permissionManager.getCurrentLevel();
 
-        String currentLevelName= permissionManager.getPermissionLevelName(currentLevel);
 
         permissionManager.setPermissionLevelName(PermissionLevel.ADMIN);
 
