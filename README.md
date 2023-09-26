@@ -21,9 +21,19 @@ We need to create enum named 'PermissionLevel'
 package org.example;
 
 public enum PermissionLevel {
-    ADMIN,
-    DEVELOPER,
-    USER
+    ADMIN("Admin"),
+    DEVELOPER("Developer"),
+    USER("User");
+
+    final   String  name;
+
+    PermissionLevel(String name){
+        this.name=name;
+    }
+
+    public String getName(){
+        return name;
+    }
 }
 
 ```
@@ -123,6 +133,6 @@ jobs:
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}
           restore-keys: ${{ runner.os }}-gradle
       - name: Build and analyze
-        run: chmod +x gradlew && ./gradlew build sonar --info -Dsonar.qualitygate.wait=true
+        run: chmod +x gradlew && ./gradlew build sonar --info -D sonar.quality-gate.wait=true
 ```
 
