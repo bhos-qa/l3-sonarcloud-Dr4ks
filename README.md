@@ -142,3 +142,8 @@ jobs:
 Here's what, you can also see SonarCloud analysis from [here](https://sonarcloud.io/summary/overall?id=bhos-qa_l3-sonarcloud-Dr4ks)
 I also provide you with a screenshot of SonarCloud analysis.
 ![image](image/img4.png)
+
+
+Now, it's time to open Pull Request from 'feature/lab3' branch to 'develop' branch.
+![img.png](image/img5.png)
+
